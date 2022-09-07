@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>php</title>
+</head>
+<body> 
+    <div class="form"> 
+ <form action="action.php" method="post" class ="forms" enctype="multipart/form-data">
+     <label for="name">Name:<input type="text" name="name"  id="name" class="for"></label>
+     <label for="pno">PhoneNumber:   <input type="number" name="pno" id ="pno"class="for"  ></label>
+        <label for="email">Email:  <input type="email" name="email" id="email" class="for"></label>
+            <label for="upload">File:  <input type="file" name="upload"  id="upload" class="for"></label>
+            <label for="id">ID:<input type="text" name="id" id="id"class="for"></label>
+                 
+            <input type="submit" name="insert" class="btn" value="insert">
+                  
+                  <input type="submit" name="update"  value="update"class="btn">
+                  
+                  <input type="submit" name="delete" class="btn" value="delete">
+                  <input type="submit" name="disp" class="btn" value="display">
+
+    </form>  
+    </div>  
+</body>
+</html>

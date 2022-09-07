@@ -1,0 +1,53 @@
+    .for {
+ 
+        display:flex;
+       
+        flex-direction: column;
+            width:390px;
+        margin-bottom: 10px;
+      height: 25px;
+        border-radius:  15px;
+        color:black
+        
+    }
+    .forms{
+        position:relative;
+        top:90px;   
+        left:500px;
+        box-shadow: 1px 5px 31px 5px #fdf9f9;
+        width:405px;
+        height:500px;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-top: 20px;
+    
+        
+    }
+    body{
+        background-image:url(images/3.jpg);
+        background-repeat: no-repeat;
+        
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        color:white;
+    }
+    
+   .btn {
+      
+        align-items: center;
+        width:90px;
+        height:40px;
+        position: relative;
+        top:100px;
+        color:white;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border-radius:  10px;
+       
+     
+    
+    }
+    .btn:hover{
+        background-color: black;
+        color:white;
+    }
